@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <small className="Footer">
       <a
-        href="https://github.com/Kinnix18/my-weather-app"
+        href="https://github.com/Kinnix18/homework-4 П"
         rel="noreferrer"
         target="_blank"
       >
