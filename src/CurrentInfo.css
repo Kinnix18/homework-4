@@ -1,0 +1,12 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.City {
+  font-size: 25px;
+}

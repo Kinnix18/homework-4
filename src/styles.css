@@ -1,0 +1,12 @@
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+  font-family: "Open Sans", sans-serif;
+  color: #3c474a;
+}
+.weather-app {
+  background-color: #e5f3e0;
+  padding: 20px;
+  border: 1px solid #c7e5ba;
+  border-radius: 8px;
+}

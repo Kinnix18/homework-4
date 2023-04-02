@@ -1,0 +1,11 @@
+h1 {
+  text-align: center;
+}
+h1 strong {
+  font-size: 70px;
+}
+.units {
+  font-size: 14px;
+  position: relative;
+  top: -38px;
+}
