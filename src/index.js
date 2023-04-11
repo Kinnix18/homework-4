@@ -2,7 +2,6 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Form from "./Form";
 import CurrentInfo from "./CurrentInfo";
-import Temperature from "./Temperature";
 import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.css";
 
