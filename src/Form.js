@@ -10,7 +10,7 @@ export default function Form() {
             className="form-control"
             id="city-input"
             placeholder="Type a city"
-            autofocus="on"
+            autoFocus="on"
           />
         </div>
         <div className="col-4">

@@ -21,8 +21,7 @@ root.render(
       <div className="weather-app-wrapper">
         <div className="weather-app">
           <Form />
-          <CurrentInfo />
-          <Temperature Temperature={7} />
+          <CurrentInfo defaultCity="Kyiv" />
         </div>
         <Footer />
       </div>
