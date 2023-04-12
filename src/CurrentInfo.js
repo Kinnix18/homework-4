@@ -3,6 +3,7 @@ import axios from "axios";
 import "./CurrentInfo.css";
 
 import "bootstrap/dist/css/bootstrap.css";
+import FormattedDate from "./FormattedDate";
 
 export default function CurrentInfo(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -14,7 +15,7 @@ export default function CurrentInfo(props) {
       ready: true,
       city: response.data.city,
       country: response.data.country,
-      date: "Monday, 20:00",
+      date: new Date(response.data.time * 1000),
       wind: response.data.wind.speed,
       description: response.data.condition.description,
       icon: "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-night.png",
@@ -30,7 +31,9 @@ export default function CurrentInfo(props) {
             <li>
               {weatherData.city}, {weatherData.country}
             </li>
-            <li>{weatherData.date}</li>
+            <li>
+              <FormattedDate date={weatherData.date} />
+            </li>
             <li> Wind: {weatherData.wind} km/h</li>
             <li>{weatherData.description}</li>
           </ul>
