@@ -1,6 +1,5 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Form from "./Form";
 import CurrentInfo from "./CurrentInfo";
 import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.css";
@@ -19,7 +18,6 @@ root.render(
     <div className="container">
       <div className="weather-app-wrapper">
         <div className="weather-app">
-          <Form />
           <CurrentInfo defaultCity="Kyiv" />
         </div>
         <Footer />
