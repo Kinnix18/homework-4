@@ -17,7 +17,7 @@ export default function CurrentInfo(props) {
       date: new Date(response.data.time * 1000),
       wind: response.data.wind.speed,
       description: response.data.condition.description,
-      icon: "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-night.png",
+      icon: response.data.condition.icon_url,
       temperature: response.data.temperature.current,
     });
   }
