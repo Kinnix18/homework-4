@@ -16,7 +16,7 @@ export default function CurrentInfoDetails(props) {
           <li>{props.data.description}</li>
         </ul>
         <div className="col-3">
-          <img src={props.data.icon} alt=" " />
+          <img src={props.data.icon} alt={props.data.description} />
         </div>
       </div>
       <div className="temperature">
