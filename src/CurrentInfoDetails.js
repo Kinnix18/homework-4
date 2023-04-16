@@ -1,6 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
-
+import Temperature from "./Temperature";
 export default function CurrentInfoDetails(props) {
   return (
     <>
@@ -19,12 +19,7 @@ export default function CurrentInfoDetails(props) {
           <img src={props.data.icon} alt={props.data.description} />
         </div>
       </div>
-      <div className="temperature">
-        <h1>
-          {Math.round(props.data.temperature)}
-          <span className="units">°C/°F</span>
-        </h1>
-      </div>
+      <Temperature celsius={props.data.temperature} />
     </>
   );
 }

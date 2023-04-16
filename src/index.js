@@ -6,7 +6,6 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import "./styles.css";
 import "./CurrentInfo.css";
-import "./Temperature.css";
 
 import "bootstrap/dist/css/bootstrap.css";
 
