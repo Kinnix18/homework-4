@@ -10,3 +10,17 @@
   border: 1px solid #c7e5ba;
   border-radius: 8px;
 }
+
+.temperature {
+  text-align: center;
+  text-decoration: none;
+}
+h1 {
+  font-size: 46px;
+}
+
+.units {
+  font-size: 12px;
+  position: relative;
+  top: -24px;
+}

@@ -9,7 +9,7 @@ export default function Footer() {
         target="_blank"
       >
         Open-sourse code
-      </a>
+      </a>{" "}
       by Oksana Yanchuk
     </small>
   );

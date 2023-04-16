@@ -1,13 +1,16 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import Temperature from "./Temperature";
+import "./CurrentInfo.css";
+
 export default function CurrentInfoDetails(props) {
   return (
     <>
       <div className="row">
-        <ul className="col-9">
+        <ul className="col-9 mt-2">
           <li>
-            {props.data.city}, {props.data.country}
+            <span className="city">{props.data.city}</span>,{" "}
+            {props.data.country}
           </li>
           <li>
             <FormattedDate date={props.data.date} />
